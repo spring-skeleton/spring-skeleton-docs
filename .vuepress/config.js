@@ -1,6 +1,7 @@
 module.exports = {
     title: 'Codeages SpringBootSkeleton 二次开发指南',
     description: 'Codeages SpringBootSkeleton 二次开发指南',
+    base: '/spring-skeleton-docs/',
     themeConfig: {
         sidebar: [
           {
