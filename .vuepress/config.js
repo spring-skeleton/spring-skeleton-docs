@@ -5,7 +5,7 @@ module.exports = {
     themeConfig: {
         sidebar: [
           {
-            title: '基本概念',
+            title: '概述',
             children: [
               '/'
             ]
@@ -84,7 +84,7 @@ module.exports = {
             ]
           },
           {
-            title: '开发指南',
+            title: 'Framework',
             children: [
                 {
                     title: '常用注解',
