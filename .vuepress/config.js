@@ -62,8 +62,8 @@ module.exports = {
                     path: '/start-guide/cache.md'
                 },
                 {
-                    title: 'Transational',
-                    path: '/start-guide/transational.md'
+                    title: 'Transactional',
+                    path: '/start-guide/transactional.md'
                 },
                 {
                     title: 'Restful',
