@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Codeages SpringBootSkeleton 二次开发指南',
-    description: 'Codeages SpringBootSkeleton 二次开发指南',
+    title: 'Codeages Framework',
+    description: 'Codeages Framework',
     base: '/spring-skeleton-docs/',
     themeConfig: {
         sidebar: [
@@ -11,8 +11,77 @@ module.exports = {
             ]
           },
           {
-            title: '快速入门',
-            children: [ /* ... */ ]
+            title: 'Start Guide',
+            children: [
+                {
+                    title: 'JAVA环境安装',
+                    path: '/start-guide/install-java.md'
+                },
+                {
+                    title: 'Maven环境安装',
+                    path: '/start-guide/install-maven.md'
+                },
+                {
+                    title: 'IDE安装及设置',
+                    path: '/start-guide/install-ide.md'
+                },
+                {
+                    title: '创建项目',
+                    path: '/start-guide/create-project.md'
+                },
+                {
+                    title: 'Entity',
+                    path: '/start-guide/entity.md'
+                },
+                {
+                    title: 'Repository',
+                    path: '/start-guide/repository.md'
+                },
+                {
+                    title: 'Service',
+                    path: '/start-guide/service.md'
+                },
+                {
+                    title: 'Scheduler',
+                    path: '/start-guide/scheduler.md'
+                },
+                {
+                    title: 'JsonRpc',
+                    path: '/start-guide/jsonrpc.md'
+                },
+                {
+                    title: 'Validation',
+                    path: '/start-guide/validation.md'
+                },
+                {
+                    title: 'Mapper',
+                    path: '/start-guide/mapper.md'
+                },
+                {
+                    title: 'Cache',
+                    path: '/start-guide/cache.md'
+                },
+                {
+                    title: 'Transational',
+                    path: '/start-guide/transational.md'
+                },
+                {
+                    title: 'Restful',
+                    path: '/start-guide/restful.md'
+                },
+                {
+                    title: 'Test Framework',
+                    path: '/start-guide/test-framework.md'
+                },
+                {
+                    title: 'Monitor',
+                    path: '/start-guide/monitor.md'
+                },
+                {
+                    title: 'Build',
+                    path: '/start-guide/build.md'
+                }
+            ]
           },
           {
             title: '开发指南',
