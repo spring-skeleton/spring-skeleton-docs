@@ -163,3 +163,11 @@ touch .gitignore
 ```
 http://localhost:8080/actuator
 ```
+
+### 约定
+
+* 项目中所有的生产环境下用到的类都以【com.codeages.项目名】为根包
+* 项目中所有的测试环境下用到的类都以【test.codeages.项目名】为根包
+
+
+

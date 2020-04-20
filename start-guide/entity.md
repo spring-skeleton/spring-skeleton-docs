@@ -64,9 +64,18 @@ private String name;
 private Org parentOrg;
 ```
 
-#### 表字段类型和Entity属性类型的映射关系
+#### 常用的Entity属性类型和表字段类型的映射关系
 
-TODO
+ 表字段类型 	| Entity属性类型 	| 备注 
+------------|---------------|-----
+int    		| Integer		
+bigint 		| Long
+tinyint(1) 	| Boolean
+timestamp	| Date      
+varchar		| String
+text		| String
+float(m,n)	| Float, Double
+enum		| enum			| 建议不用enum类型
 
 ### 参考文档
 
